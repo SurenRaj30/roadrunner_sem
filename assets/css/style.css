@@ -1,0 +1,176 @@
+html,body {
+	height: 100%;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+}
+
+/*Change default bootstrap container size*/
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+.main-content{
+	min-height: calc(100vh - 50px);
+	padding: 40px 40px 0 40px;
+}
+
+.centered-class {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.full-height-jumbotron{
+	height: 100vh;
+	/*margin-bottom: 0px;*/
+}
+
+.footer{
+	height: 50px;
+}
+
+.sticky-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+.form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+.btn-wide{
+	width: 288px !important;
+}
+
+
+.login-form{
+	width:330px;
+	margin:20px;
+}
+
+.wide-form{
+	width:800px;
+	margin:20px;
+}
+
+.margin-top-40px{
+	margin-top: 40px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+
+.tile{
+	object-fit: contain;
+	width: 100%;
+	height: 150px;
+}
+
+.cart-row{
+	object-fit: contain;
+	width: 80px;
+	height: 95px;
+}
+
+.product-large{
+	object-fit: contain;
+	width: 100%;
+	height: 250px;
+}
+
+.img-fit-container{
+	object-fit: contain;
+	width: 100%;
+}
+/*Fontawesome*/
+/*vertical align to text*/
+/*.fa-2x {
+  vertical-align: middle;
+}*/
+
+/*Bootstrap Carousel*/
+.carousel-inner img{
+  object-fit: contain;
+	width: 100%;
+	height: 450px;
+}
+
+
+/*Tracking css*/
+
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css");
+body { margin-top:20px; }
+.fa { font-size: 50px;text-align: right;position: absolute;top: 7px;right: 27px;outline: none; }
+a { transition: all .3s ease;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease; }
+/* Visitor */
+a.visitor i,.visitor h4.list-group-item-heading { color:#E48A07; }
+a.visitor:hover { background-color:#E48A07; }
+a.visitor:hover * { color:#FFF; }
+/* Facebook */
+a.facebook-like i,.facebook-like h4.list-group-item-heading { color:#3b5998; }
+a.facebook-like:hover { background-color:#3b5998; }
+a.facebook-like:hover * { color:#FFF; }
+/* Google */
+a.google-plus i,.google-plus h4.list-group-item-heading { color:#dd4b39; }
+a.google-plus:hover { background-color:#dd4b39; }
+a.google-plus:hover * { color:#FFF; }
+/* Twitter */
+a.twitter i,.twitter h4.list-group-item-heading { color:#00acee; }
+a.twitter:hover { background-color:#00acee; }
+a.twitter:hover * { color:#FFF; }
+/* Linkedin */
+a.linkedin i,.linkedin h4.list-group-item-heading { color:#0e76a8; }
+a.linkedin:hover { background-color:#0e76a8; }
+a.linkedin:hover * { color:#FFF; }
+/* Tumblr */
+a.tumblr i,.tumblr h4.list-group-item-heading { color:#34526f; }
+a.tumblr:hover { background-color:#34526f; }
+a.tumblr:hover * { color:#FFF; }
+/* Youtube */
+a.youtube i,.youtube h4.list-group-item-heading { color:#c4302b; }
+a.youtube:hover { background-color:#c4302b; }
+a.youtube:hover * { color:#FFF; }
+/* Vimeo */
+a.vimeo i,.vimeo h4.list-group-item-heading { color:#44bbff; }
+a.vimeo:hover { background-color:#44bbff; }
+a.vimeo:hover * { color:#FFF; }
+
+/*end tracking css*/
