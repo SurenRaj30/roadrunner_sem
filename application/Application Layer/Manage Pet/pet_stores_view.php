@@ -30,7 +30,7 @@
 							echo'<div class="col-3">';
 							echo	'<a href="'. site_url('pet/products/'.$id) .'">';
 							echo		'<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">';
-							echo            '<img class="card-img-top tile" src="' . $picLink . '" alt="'. $pic .'">';
+							echo            '<img class="card-img-top tiles" src="' . $picLink . '" alt="'. $pic .'">';
 							echo			'<div class="row px-3 justify-content-between">';
 							echo				'<div class="card-header col-9">'. $name .'</div>';
 							echo				'<div class="card-header col-3"><i class="fas fa-arrow-right fa-lg"></i></div>';
