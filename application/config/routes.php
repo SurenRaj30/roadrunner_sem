@@ -56,6 +56,8 @@ $route['translate_uri_dashes'] = TRUE;
 
 //Home Controller
 $route['homepage'] ='User Service/homepage';
+//Forgot Password Controller
+$route['forgot'] = 'User Service/forgot';
 //About Controller
 $route['about'] ='User Service/about';
 //Login Controller

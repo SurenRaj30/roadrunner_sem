@@ -5,7 +5,7 @@ class Page extends CI_Controller{
 		parent::__construct();
 		$this->load->model('User Data/profile_model','profile');
 		if($this->session->userdata('logged_in') !== TRUE){
-			redirect('login');
+			redirect('homepage');
 		}
 	}
 

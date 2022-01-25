@@ -25,6 +25,9 @@
 								<div class="sign-up">
 									Don't have an account? <a href="<?php echo site_url('register/');?>">Create One</a>
 								</div>
+								<div class="sign-up">
+									Forgot Password? <a href="<?php echo site_url('forgot/');?>">Click here</a>
+								</div>
 							</form>
 							<div>Login as:</div>
 							<div>
