@@ -17,6 +17,7 @@
 						<div class="row col-12">
 							<button type="button" class="btn btn-success" onclick="addProduct()"> Add Product</button>
 							<button type="button" class="btn btn-primary ml-2" onclick="reloadTable()"> Reload</button>
+							<button type="button" class="btn btn-dark ml-2" onclick="reloadTable()"><a href="<?php echo site_url('/promo')?>">Promotion</a></button>
 						</div>
 						<!-- DataTables -->
 						<table class="table table-striped table-hover" id="dataTable">

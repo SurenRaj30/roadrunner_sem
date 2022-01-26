@@ -72,6 +72,11 @@ class Profile extends CI_Controller{
 		}
 	}
 
+	public function promoPage()
+	{
+		
+	}
+
 	//Loads service provider manage_store_view
 	public function manage_store()
 	{
