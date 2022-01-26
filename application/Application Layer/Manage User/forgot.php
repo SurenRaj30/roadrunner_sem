@@ -26,7 +26,8 @@
 									<input type="password" name="password" id="password" class="form-control form-control-sm">
 								</div>
 								<button type="submit" id="loginBtn" class="btn btn-primary btn-block mt-3">Change Password</button>
-							</form>
+								<button type="submit" id="loginBtn" class="btn btn-success btn-block mt-3">Request OTP</button>
+						</form>
                 </div>
             </div>
         </div>
